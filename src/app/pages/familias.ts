@@ -10,7 +10,7 @@ import { db, Familia, hoje } from '../db';
   imports: [FormsModule, RouterLink, MatButtonModule],
   template: `
   <h1>Cadastrar família</h1><p>Cada família deve ser cadastrada uma única vez.</p>
-  <label for="name">Nome do responsável</label><input id="nome" [(ngModel)]="nome" autocomplete="off">
+  <label for="nome">Nome do responsável</label><input id="nome" [(ngModel)]="nome" autocomplete="off">
   <label for="end">Endereço</label><input id="end" [(ngModel)]="end" autocomplete="off">
   <label for="pes">Nº de pessoas</label><input id="pes" type="number" min="1" inputmode="numeric" [(ngModel)]="pes">
   @if (erro) { <div class="msg err" role="alert"><span aria-hidden="true">⚠</span><span>{{ erro }}</span></div> }

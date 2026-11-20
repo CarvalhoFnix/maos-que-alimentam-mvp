@@ -23,5 +23,8 @@ ng build          # produção (gera o Service Worker)
 ```
 Publicação: enviar a pasta `dist/maos-que-alimentam-mvp/browser` para uma hospedagem estática com HTTPS.
 
+## Observações
+Projeto apenas socioeducativo. Dados fictícios.
+
 ## Autor
 Luiz Fabiano Carvalho de Lima – Análise e Desenvolvimento de Sistemas
